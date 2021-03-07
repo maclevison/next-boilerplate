@@ -34,8 +34,6 @@ export default class MyDocument extends Document {
             <Html lang="pt-BR">
                 <Head>
                     <link rel="shortcut icon" href="/images/favicon.ico" />
-                    <link rel="apple-touch-icon" href="/images/favicon.ico" />
-                    <meta name="theme-color" content="#06092b" />
                     <meta
                         name="description"
                         content="A simple project starter to work with TypeScript, React, NextJS and Styled Components"
