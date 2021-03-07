@@ -1,10 +1,5 @@
-import Document, {
-    DocumentContext,
-    Html,
-    Head,
-    Main,
-    NextScript
-} from 'next/document'
+// eslint-disable-next-line prettier/prettier
+import Document, { DocumentContext, Head, Html, Main, NextScript } from 'next/document'
 import { ServerStyleSheet } from 'styled-components'
 
 export default class MyDocument extends Document {
@@ -45,7 +40,6 @@ export default class MyDocument extends Document {
                         name="description"
                         content="A simple project starter to work with TypeScript, React, NextJS and Styled Components"
                     />
-                    <title>Next Boilerplate</title>
                 </Head>
                 <body>
                     <Main />
