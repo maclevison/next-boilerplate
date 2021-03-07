@@ -2,8 +2,8 @@
 
 exports[`<Main /> should render the heading 1`] = `
 <div>
-  <h2>
-    Oi
-  </h2>
+  <h1>
+    Hello Boilerplate
+  </h1>
 </div>
 `
