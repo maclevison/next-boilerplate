@@ -38,7 +38,6 @@ export default class MyDocument extends Document {
         return (
             <Html lang="pt-BR">
                 <Head>
-                    <title>Next Boilerplate</title>
                     <link rel="shortcut icon" href="/images/favicon.ico" />
                     <link rel="apple-touch-icon" href="/images/favicon.ico" />
                     <meta name="theme-color" content="#06092b" />
@@ -46,6 +45,7 @@ export default class MyDocument extends Document {
                         name="description"
                         content="A simple project starter to work with TypeScript, React, NextJS and Styled Components"
                     />
+                    <title>Next Boilerplate</title>
                 </Head>
                 <body>
                     <Main />
